@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+.nv{
+    position: unset !important;
+}
+
+.img1{
+    width: 100% !important;
+    border-radius: 0px 120px ;
+}
+.img2{
+    width: 80% !important;
+    border-radius: 0px 60px ;
+}
+.img3{
+    width: 100% !important;
+    border-radius: 0px 80px ;
+}
+.divv{
+    border-radius: 0px 80px ;
+}
+section{
+    padding: 40px 0 60px 0;
+}
+ul{
+    padding-left: 0 !important;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+    
+}
+.cl{
+    color: rgb(28, 28, 226) !important;
+}
+.clb{
+    background-color:  rgb(28, 28, 226) !important;
+}
+.palace:hover{
+   
+    
+}
+/* PRELOADER CSS */
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.disappear{
+    animation:vanish forwards 2s;
+    
+}
+
+@keyframes vanish{
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
